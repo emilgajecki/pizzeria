@@ -12,9 +12,11 @@ public class Pizzeria {
         //IPizza pizza = new MyPizza();
         //IOrder order = new MyOrder(pizza);
 
-        //Rozwiazanie w springu
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("konfiguracja.xml");
-        MyOrder order = context.getBean("myOrder", MyOrder.class);
+        //Rozwiazanie w springu z konfig z xml
+        //ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("konfiguracja.xml");
+        //MyOrder order = context.getBean("myOrder", MyOrder.class);
+
+
 
         //logika biznesowa
         order.printOrder();
