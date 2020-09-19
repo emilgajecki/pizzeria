@@ -12,6 +12,6 @@ public class MyOrder implements IOrder {
     }
 
     public void printOrder() {
-        System.out.println("Zamówienie: Pizza"+pizza.getName() + "  cena"+ pizza.getPrice());
+        System.out.println("Zamówienie: Pizza"+pizza.getName() + "  cena "+ pizza.getPrice());
     }
 }
